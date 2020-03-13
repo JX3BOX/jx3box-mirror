@@ -1,0 +1,70 @@
+<div class="m-macro-tips">
+    <label for="">宏</label>
+    <span>（可添加一个心法下多个宏区块，例如XX流派、单体宏、群攻宏、N段宏、X姿态宏，名称请尽可能简短。）</span>
+</div>
+<div class="m-macro-help">
+    <div class="u-panel">
+        <p class="u-example">
+            <b>/ 指令</b>
+            <i><em>[</em>条件<em>:</em>参数<em>]</em></i>
+            <span>技能</span>
+        </p>
+        <a class="w-switch u-switch" id="m-post-macro-book-switch" href="javascript:;"><i class="u-icon-unfold"></i>快速参考手册</a>
+    </div>
+    <div class="u-content" id="m-post-macro-book">
+        <table>
+            <thead>
+                <tr>
+                    <th>指令</th>
+                    <th>条件(自身)</th>
+                    <th>条件(目标)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>/cast [条件] 技能</td>
+                    <td>[buff:名字]</td>
+                    <td>[tbuff:名字]</td>
+                </tr>
+                <tr>
+                    <td>/fcast [条件] 技能<span>(不被打断)</span></td>
+                    <td>[nobuff:名字]</td>
+                    <td>[tnobuff:名字]</td>
+                </tr>
+                <tr>
+                    <td>/msg [条件] 消息</td>
+                    <td>[bufftime:秒数]</td>
+                    <td>[tbufftime:秒数]</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>[skill:技能ID]</td>
+                    <td>[npclevel=6]</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>[noskill:技能ID]</td>
+                    <td>[nearby_enemy>n]</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>[last_skill:技能ID]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan=3 class="u-special">职业特殊</td>
+                </tr>
+                <tr>
+                    <td>[rage:数值]<span>藏剑剑气(0~10)、霸刀长刀(尘身体态)</span></td>
+                    <td>[qidian:数值]<span>纯阳少林气点(0~10)</span></td>
+                    <td>[energy:n]<span>唐门能量值、霸刀双刀(竹雾体态)</span></td>
+                </tr>
+                <tr>
+                    <td>[sun|moon:n]<span>明教日月灵值、霸刀鞘刀(金屏体态)</span></td>
+                    <td>[sun_power|moon_power]<span>明教日月灵值充盈状态</span></td>
+                    <td>[skill_energy:n]<span>苍云技能能量</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

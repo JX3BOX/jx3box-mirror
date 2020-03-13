@@ -1,0 +1,21 @@
+<div class="m-bps-index" id="m-bps-index">
+    <?php if($xf): ?>
+        <div class="m-bps-header" style="display:none;">
+            <h1 class="m-bps-title"><?= $xf ?></h1>
+            <p class="m-bps-author">
+                主编：
+                <span id="m-bps-author">
+                    <template v-for="(author,index) in authors">
+                    <em v-if="index != 0">、</em>
+                    <a :href="author.link" class="s-link">
+                        {{author.name}}
+                    </a>
+                    </template>
+                </span>
+            </p>
+        </div>
+        <div class="m-single-primary m-bps-info" id="m-bps-info" style="display:none;"></div>
+    <?php else: ?>
+        <div class="m-single-primary m-bps-overview" id="m-bps-overview"></div>
+    <?php endif; ?>
+</div>
