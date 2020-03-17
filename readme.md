@@ -7,7 +7,7 @@
 
 ## 环境
 @部署 : 阿里云OSS  
-@域名 : https://mirror.jx3box.com
+@域名 : https://static.jx3box.com
 
 ## 说明
 自动推送至//oss/jx3box-static
