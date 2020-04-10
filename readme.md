@@ -3,11 +3,9 @@
 
 ## 线上
 @部署 : github master  
-@镜像 : https://cdn.jsdelivr.net/gh/iRuxu/jx3box-mirror/  
+@镜像 : https://cdn.jsdelivr.net/gh/iRuxu/jx3box-mirror@$commit  
 
-## 环境
+## 备用
 @部署 : 阿里云OSS  
 @域名 : https://static.jx3box.com
-
-## 说明
-自动推送至//oss/jx3box-static
+@push hook: 自动推送至//oss/jx3box-static
