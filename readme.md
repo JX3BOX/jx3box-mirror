@@ -8,4 +8,6 @@
 ## 备用
 @部署 : 阿里云OSS  
 @域名 : https://static.jx3box.com
-@push hook: 自动推送至//oss/jx3box-static
+
+## 说明
+push自动推送至//oss/jx3box-static
