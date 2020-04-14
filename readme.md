@@ -10,7 +10,7 @@
 @域名 : https://mirror.jx3box.com (CNAME->jx3box.github.io)
 
 ## 测试地址
-https://cdn.jsdelivr.net/gh/JX3BOX/jx3box-mirror@e211acb/wp-admin/css/about-rtl.css
-https://mirror.jx3box.com/wp-admin/css/about-rtl.css
++ https://cdn.jsdelivr.net/gh/JX3BOX/jx3box-mirror@e211acb/wp-admin/css/about-rtl.css
++ https://mirror.jx3box.com/wp-admin/css/about-rtl.css
 
 
