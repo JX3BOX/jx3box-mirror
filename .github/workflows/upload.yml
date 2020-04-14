@@ -33,6 +33,6 @@ jobs:
           endpoint: "oss-cn-hangzhou.aliyuncs.com"
           access-key-id: ${{secrets.AccessKey_ID}}
           access-key-secret: ${{secrets.Access_Key_Secret}}
-      - run: ossutil cp -rf wp-admin oss://jx3box-static/wp-admin/
-      - run: ossutil cp -rf wp-content oss://jx3box-static/wp-content/
-      - run: ossutil cp -rf wp-includes oss://jx3box-static/wp-includes/
+      - run: ossutil cp -rf wp-admin oss://jx3box/static/wp_mirror/wp-admin/
+      - run: ossutil cp -rf wp-content oss://jx3box/static/wp_mirror/wp-content/
+      - run: ossutil cp -rf wp-includes oss://jx3box/static/wp_mirror/wp-includes/

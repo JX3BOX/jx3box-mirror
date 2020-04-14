@@ -1,13 +1,12 @@
 # Mirror
 旧前端文件备份,以缓存插件**super cache - cdn**设定而确定指向.
 
-## 线上
+## 归档
 @部署 : github master  
-@镜像 : https://cdn.jsdelivr.net/gh/iRuxu/jx3box-mirror@$commit  
+@备份 : //oss/jx3box/wp_mirror (push自动推送至//oss/static/wp_mirror/)
 
-## 备用
-@部署 : 阿里云OSS  
-@域名 : https://static.jx3box.com
+## 访问
+@镜像 : https://cdn.jsdelivr.net/gh/JX3BOX/jx3box-mirror@e211acb 
+@域名 : https://mirror.jx3box.com (CNAME->jx3box.github.io)
 
-## 说明
-push自动推送至//oss/jx3box-static
+
